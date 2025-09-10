@@ -8,7 +8,10 @@ export const Navbar = component$(() => {
   return (
     <header class="bg-slate-800/80 backdrop-blur-md sticky top-0 z-50">
       <nav class="container mx-auto flex justify-between items-center p-4 text-white">
-        <Link href="/" class="text-2xl font-bold text-indigo-400">NewsFlow</Link>
+        <Link href="/" class="flex items-center">
+          <img src="/logo.png" alt="NewsFlow Logo" class="h-8 w-auto mr-2" />
+          <span class="text-2xl font-bold text-indigo-400">NewsFlow</span>
+        </Link>
         <ul class="hidden md:flex items-center space-x-6">
           <li><Link href="/category/technology" class="hover:text-indigo-300">Technology</Link></li>
           <li><Link href="/category/science" class="hover:text-indigo-300">Science</Link></li>
