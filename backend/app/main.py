@@ -16,9 +16,10 @@ load_dotenv()
 app = FastAPI()
 
 # CORS Middleware to allow frontend requests
+frontend_url = os.getenv("FRONTEND_URL")  # Default to localhost for dev
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # Your Qwik frontend URL
+    allow_origins=[frontend_url],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
