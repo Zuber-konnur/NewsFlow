@@ -1,1 +1,0 @@
-- [x] Add health, sports, entertainment, world categories to Navbar.tsx
