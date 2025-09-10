@@ -16,6 +16,10 @@ export const Navbar = component$(() => {
           <li><Link href="/category/technology" class="hover:text-indigo-300">Technology</Link></li>
           <li><Link href="/category/science" class="hover:text-indigo-300">Science</Link></li>
           <li><Link href="/category/business" class="hover:text-indigo-300">Business</Link></li>
+          <li><Link href="/category/health" class="hover:text-indigo-300">Health</Link></li>
+          <li><Link href="/category/sports" class="hover:text-indigo-300">Sports</Link></li>
+          <li><Link href="/category/entertainment" class="hover:text-indigo-300">Entertainment</Link></li>
+          <li><Link href="/category/world" class="hover:text-indigo-300">World</Link></li>
         </ul>
 
         <div class="flex items-center space-x-4">

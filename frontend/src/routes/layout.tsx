@@ -20,8 +20,8 @@ export default component$(() => {
       <main class="container mx-auto p-4 md:p-6">
         <Slot />
       </main>
-      <footer class="text-center p-4 bg-slate-800/50 mt-12">
-        <p class="text-gray-400">NewsFlow &copy; 2025</p>
+      <footer class="text-center p-4 bg-slate-800/80 backdrop-blur-md sticky mt-12 bottom-0">
+        <p class="text-white">NewsFlow &copy; 2025</p>
       </footer>
     </>
   );

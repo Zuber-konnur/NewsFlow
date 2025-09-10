@@ -22,9 +22,9 @@ export default component$(() => {
     <div class="max-w-md mx-auto mt-10">
       <h1 class="text-3xl font-bold text-center mb-6">Create Account</h1>
       <Form action={signupAction} class="bg-slate-800 p-8 rounded-lg shadow-lg">
-        <input name="name" type="text" placeholder="Full Name" class="w-full p-3 mb-4 bg-slate-700 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500" />
-        <input name="email" type="email" placeholder="Email" class="w-full p-3 mb-4 bg-slate-700 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500" />
-        <input name="password" type="password" placeholder="Password" class="w-full p-3 mb-4 bg-slate-700 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+        <input name="name" type="text" placeholder="Full Name" class="w-full p-3 mb-4 bg-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+        <input name="email" type="email" placeholder="Email" class="w-full p-3 mb-4 bg-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+        <input name="password" type="password" placeholder="Password" class="w-full p-3 mb-4 bg-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500" />
         <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-3 rounded-md">Sign Up</button>
         {signupAction.value?.success === false && (
           <p class="text-red-500 mt-4 text-center">{signupAction.value.error}</p>
