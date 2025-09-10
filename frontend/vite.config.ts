@@ -100,3 +100,22 @@ function errorOnDuplicatesPkgDeps(
     throw new Error(msg);
   }
 }
+
+
+
+
+// import { defineConfig } from "vite";
+// import { qwikCity } from "@builder.io/qwik-city/vite";
+// import { qwikVite } from "@builder.io/qwik/optimizer";
+// import { resolve } from "node:path";
+
+// export default defineConfig(() => {
+//   return {
+//     plugins: [qwikCity(), qwikVite()],
+//     resolve: {
+//       alias: {
+//         "~": resolve("src"),
+//       },
+//     },
+//   };
+// });
