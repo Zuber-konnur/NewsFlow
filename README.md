@@ -34,31 +34,31 @@ frontend/
 ├── src/ <br>
 │ ├── components/ <br>
 │ │ ├── Navbar.tsx <br>
-│ │ └── ArticleCard.tsx
-│ ├── routes/
-│ │ ├── index.tsx # Home Page
-│ │ ├── category.tsx # Category News
-│ │ ├── history.tsx # User History
-│ │ ├── saved.tsx # Saved Articles
-│ │ ├── login.tsx # Login
-│ │ └── register.tsx # Register
-│ └── services/
-│ └── api.ts # API Calls to Backend
-├── src/global.css # TailwindCSS
-└── .env # Frontend environment variables
+│ │ └── ArticleCard.tsx <br>
+│ ├── routes/ <br>
+│ │ ├── index.tsx # Home Page <br>
+│ │ ├── category.tsx # Category News <br>
+│ │ ├── history.tsx # User History <br>
+│ │ ├── saved.tsx # Saved Articles <br>
+│ │ ├── login.tsx # Login <br>
+│ │ └── register.tsx # Register <br>
+│ └── services/ <br>
+│ └── api.ts # API Calls to Backend <br>
+├── src/global.css # TailwindCSS <br>
+└── .env # Frontend environment variables <br>
 
 
 ### Backend (`/backend`)
-backend/
-├── app/
-│ ├── main.py
-│ ├── core/ # Config (CORS, DB, API keys)
-│ ├── models/ # Pydantic Schemas
-│ ├── routers/ # API Routes (auth, news, user)
-│ └── services/ # GNews API logic
-├── venv/ # Virtual Environment
-├── requirements.txt
-└── .env # Backend environment variables
+backend/ <br>
+├── app/ <br>
+│ ├── main.py <br>
+│ ├── core/ # Config (CORS, DB, API keys) <br>
+│ ├── models/ # Pydantic Schemas <br>
+│ ├── routers/ # API Routes (auth, news, user) <br>
+│ └── services/ # GNews API logic <br>
+├── venv/ # Virtual Environment <br>
+├── requirements.txt <br>
+└── .env # Backend environment variables <br>
 
 
 ---
