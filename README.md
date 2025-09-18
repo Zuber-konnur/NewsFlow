@@ -31,9 +31,9 @@ It fetches live news from the **GNews API** and provides features like authentic
 
 ### Frontend (`/frontend`)
 frontend/
-├── src/
-│ ├── components/
-│ │ ├── Navbar.tsx
+├── src/ <br>
+│ ├── components/ <br>
+│ │ ├── Navbar.tsx <br>
 │ │ └── ArticleCard.tsx
 │ ├── routes/
 │ │ ├── index.tsx # Home Page
